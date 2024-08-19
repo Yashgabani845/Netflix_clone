@@ -1,0 +1,13 @@
+.new-popular-container{
+    display: flex;
+    
+    flex-wrap: wrap;
+    padding: 10px;
+   
+    margin-left: 4%;
+    border-radius: 10px;
+}
+
+.title{
+    color: rgb(255, 255, 255);
+}

@@ -1,0 +1,60 @@
+.videoplayer{
+ height:90%  ;
+ width:90%;
+ border-radius: 10px;
+ margin-bottom: 50px;
+ margin-top: 40px;
+ box-shadow: rgba(255, 255, 255, 0.25) 0px 4px 8px -2px, rgba(255, 255, 255, 0.08) 0px 0px 0px 1px;
+}
+.media-player-title{
+  color: white ;
+  justify-content: center;
+  margin-top: 20px;
+}
+.media-player-title h1{
+  font-family: "Fredericka the Great", serif;
+  font-size: xx-large;
+
+}
+.back-button-media{
+  margin-right: 25%;
+  float: left;
+  margin-top: 20px;
+  margin-left:20px ;
+  cursor: pointer;
+}
+.media-player-container{
+  height: 100vh;
+}
+.nextepisodebutton,
+.prevepisdoebutton {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nextepisodebutton:hover,
+.prevepisdoebutton:hover {
+  background-color: #45a049; /* Darker Green */
+}
+
+.nextepisodebutton:disabled,
+.prevepisdoebutton:disabled {
+  background-color: #cccccc; /* Grey */
+  color: #666666; /* Dark Grey */
+  cursor: not-allowed;
+}
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+ color: white;
+  margin-bottom: 20px;
+}
